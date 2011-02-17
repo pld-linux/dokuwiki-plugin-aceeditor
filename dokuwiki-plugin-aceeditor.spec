@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	DokuWiki Ace Editor Plugin
 Name:		dokuwiki-plugin-%{plugin}
-Version:	20110211
+Version:	20110217
 Release:	1
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	https://github.com/downloads/IOC/dokuwiki-aceeditor/%{plugin}-%{version}.tar.gz
-# Source0-md5:	dbf527ab84d8a837e5316ebf20659f35
+# Source0-md5:	5df8bd6adec5e97bf22ddc488c8325b1
 URL:		http://www.dokuwiki.org/plugin:aceeditor
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.520
