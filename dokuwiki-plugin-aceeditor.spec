@@ -1,6 +1,5 @@
 %define		plugin		aceeditor
 %define		php_min_version 5.0.0
-%include	/usr/lib/rpm/macros.php
 Summary:	DokuWiki Ace Editor Plugin
 Name:		dokuwiki-plugin-%{plugin}
 Version:	20110217
